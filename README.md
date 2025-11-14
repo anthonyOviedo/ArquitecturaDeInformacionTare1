@@ -1,0 +1,1 @@
+# ArquitecturaDeInformacionTare1
