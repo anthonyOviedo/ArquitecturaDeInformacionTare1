@@ -1,0 +1,1 @@
+import{s,v as a,x as r,y as u,z as o}from"./D3W_ox_D.js";function i(e){const t=e||a();return t?.ssrContext?.head||t?.runWithContext(()=>{if(r())return u(o)})}function c(e,t={}){const n=i(t.nuxt);if(n)return s(e,{head:n,...t})}export{c as u};
