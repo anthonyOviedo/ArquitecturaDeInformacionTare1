@@ -1,0 +1,20 @@
+export default defineNuxtConfig({
+  modules: ['@nuxt/content'],
+  app: {
+    head: {
+      title: 'Blog de Noticias - Tarea 1',
+      meta: [
+        {
+          name: 'description',
+          content:
+            'Blog de noticias nacionales con categorías de sucesos, deportes y espectáculos, desarrollado con Nuxt 3 y @nuxt/content.'
+        }
+      ]
+    }
+  },
+  content: {
+    highlight: {
+      theme: 'github-dark'
+    }
+  }
+})
